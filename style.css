@@ -36,3 +36,31 @@ body{
 .D div:nth-child(even){
     background: white;
 }
+
+.E div:nth-child(odd){
+    background: white;
+}
+.E div:nth-child(even){
+    background: black;
+}
+
+.F div:nth-child(odd){
+    background: black;
+}
+.F div:nth-child(even){
+    background: white;
+}
+
+.G div:nth-child(odd){
+    background: white;
+}
+.G div:nth-child(even){
+    background: black;
+}
+
+.H div:nth-child(odd){
+    background: black;
+}
+.H div:nth-child(even){
+    background: white;
+}
