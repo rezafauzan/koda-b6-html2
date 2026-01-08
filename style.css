@@ -1,0 +1,38 @@
+body{
+    background: #707070;
+}
+
+.chessboard div {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+
+.A div:nth-child(odd){
+    background: white;
+}
+.A div:nth-child(even){
+    background: black;
+}
+
+.B div:nth-child(odd){
+    background: black;
+}
+.B div:nth-child(even){
+    background: white;
+}
+
+.C div:nth-child(odd){
+    background: white;
+}
+.C div:nth-child(even){
+    background: black;
+}
+
+.D div:nth-child(odd){
+    background: black;
+}
+.D div:nth-child(even){
+    background: white;
+}
